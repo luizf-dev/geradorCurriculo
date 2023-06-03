@@ -1,0 +1,161 @@
+.card{
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+nav{
+    height: 70px;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+main{
+    margin: 100px auto 20px;
+    width: 100%;
+}
+
+.container a{
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #fff;
+    color: green;
+    font-size: 1.4em;
+} 
+
+label{
+    font-weight: 700;
+}
+
+span{
+    font-weight: 900;
+    font-size: 1em;
+}
+
+li{
+    font-size: 0.9em;
+}
+
+h3{
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+.btn, .btn:hover{
+    color: #000;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+.btn-add{
+    width: 230px;
+    border: 1px solid #000;
+}
+
+.btn-submit, .btn-reset{
+     border: 1px solid #000;
+}
+
+.btn-links, .btn-links:hover{
+    border: 1px solid #000;
+}
+
+hr{
+    margin-bottom: 50px;    
+}
+
+.div-formacoes, .div-experiencias, .div-cursos, .div-habilidades, .div-sobre{
+    margin-bottom: 100px;
+}
+
+.print{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nome{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+::placeholder{
+    font-weight: 700;
+}
+
+.lista-topicos{
+    border-left: 1px dotted black;
+    font-size: 1.4em;
+}
+
+.button-print{
+    background-color: green;
+    width: 30%;
+    height: 50px;
+    font-size: 1em;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.button-print:hover{
+    background-color: darkslategrey;
+}
+
+.card-footer{
+    background-color: #000;
+}
+
+textarea{
+    text-align: justify;
+}
+
+@media print{
+
+    .no-print{
+        display: none;
+    }
+}
+
+/*!Media queries ------------------------------------*/
+
+/*? Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  .div-links{
+    margin-bottom: 10px;
+  }
+
+}
+
+/* !Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+    
+}
+
+/*! Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+}
+
+/*! Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+}
+
+/* !Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    
+}
