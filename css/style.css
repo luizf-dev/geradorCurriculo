@@ -1,3 +1,7 @@
+body{
+    background: #f5f4f4;
+}
+
 .card{
     margin-top: 10px;
     border: 1px solid #000;
@@ -20,6 +24,7 @@ img{
 main{
     margin: 100px auto 20px;
     width: 100%;
+   
 }
 
 .container a{
@@ -133,6 +138,12 @@ textarea{
   .div-links{
     margin-bottom: 10px;
   }
+
+  .container a{
+    font-size: 1em;
+  }
+
+  
 
 }
 

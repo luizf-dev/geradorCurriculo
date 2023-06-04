@@ -5,6 +5,8 @@
 
 $dados = array(
     'nome' => $_POST['nome'],
+    'estado_civil' => $_POST['estado-civil'],
+    'data_nascimento' => $_POST['data-nascimento'],
     'rua' => $_POST['rua'],
     'numero' => $_POST['numero'],
     'bairro' => $_POST['bairro'],

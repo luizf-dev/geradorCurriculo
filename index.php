@@ -13,13 +13,13 @@
         <nav class="navbar-light bg-dark">
             <div class="container">
                 <img src="img/icone-formacao-1.png" alt="">
-                <a  href="index.php"> Gerador de Currículos</a>
+                <a class="title"  href="index.php"> Gerador de Currículos</a>
             </div>            
         </nav>
         <main class="container">
             <form action="gerarCurriculo.php" method="post" target="_blank" enctype="multipart/form-data">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body col-sm-12">
                         <h4 class="card-title">Informações Pessoais</h4>
 
                         <div class="form-group ">
@@ -31,6 +31,20 @@
                             <label for="email">E-mail</label>
                             <input type="email" class="form-control" name="email" id="email">
                         </div>
+                        
+                        <div class="row">
+                            <div class="form-group col-md-6 col-sm-12">
+                                <label for="data-nascimento">Data Nascimento</label>
+                                <input type="text" class="form-control" name="data-nascimento" id="data-nascimento">
+                            </div>
+
+                        
+                            <div class="form-group col-md-6 col-sm-12">
+                                <label for="estado-civil">Estado Civil</label>
+                                <input type="text" class="form-control" name="estado-civil" id="estado-civil">
+                            </div>
+                        </div>
+                            
                         
                         <div class="row">
                             <div class="col-md-6 col-sm-12">

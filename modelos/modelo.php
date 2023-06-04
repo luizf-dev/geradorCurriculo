@@ -13,6 +13,7 @@
         <section class="topo">
             <img src="img/icone-formacao-1.png" alt="">
             <h1 class="nome"><?= $dados['nome']; ?></h1>
+            <p><span>Data Nascimento: </span><?= $dados['data_nascimento'] ?> <span> | Estado Civil: </span> <?= $dados['estado_civil'] ?></p>
             <p><span>Rua: </span><?= $dados['rua']; ?><span> | N°: </span><?= $dados['numero']; ?><span> | Bairro: </span>  <?= $dados['bairro']; ?></p>
             <p><span>Cidade: </span><?= $dados['cidade']; ?></p> 
             <p><span>Estado: </span><?= $dados['estado']; ?></p> 
@@ -23,7 +24,7 @@
                     <p><span><?= $dados['links']['descricoes'][$i] ?>: </span><?= $dados['links']['links'][$i] ?></p>                               
                 <?php } ?>                
             <?php } ?>
-        </section><hr>
+        </section>
 
 
         <section class="conteudo">             
