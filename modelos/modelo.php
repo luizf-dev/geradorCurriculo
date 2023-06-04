@@ -101,7 +101,7 @@
 
             <div class="div-sobre">        
                 <?php if($dados['sobreMim']) { ?>
-                        <h3>Sobre Mim</h3>
+                        <h3>Objetivos</h3>
 
                     
                         <?php for($i = 0; $i < sizeof($dados['sobreMim']['textoSobre']); $i++) { ?>

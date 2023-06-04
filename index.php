@@ -91,7 +91,7 @@
                     <div class="card-body" id="div-links">
                         <h4 class="card-title">Meus Links(Linkedin, sites, blogs e/ou redes sociais)</h4>
                         <button class="btn btn-success btn-add btn-sm right" id="btn-adicionar-link" title="Adicionar Links"> Adicionar Links</button>
-                    </div>                    
+                    </div><br>               
 
                     <div class="card-body" id="div-experiencias">
                         <h4 class="card-title">Minhas Experiências</h4>

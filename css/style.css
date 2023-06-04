@@ -7,6 +7,10 @@ body{
     border: 1px solid #000;
 }
 
+.topo{
+    margin-bottom: 70px;
+}
+
 nav{
     height: 70px;
     padding: 15px;
@@ -49,11 +53,15 @@ li{
 }
 
 h3{
-    font-size: 1.6em;
+    font-size: 1.4em;
+}
+
+h4{
+    font-size: 1.2em;
 }
 
 p{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .btn, .btn:hover{
@@ -80,11 +88,11 @@ hr{
 }
 
 .div-formacoes, .div-experiencias, .div-cursos, .div-habilidades, .div-sobre{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .print{
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -98,8 +106,7 @@ hr{
 }
 
 .lista-topicos{
-    border-left: 1px dotted black;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .button-print{
