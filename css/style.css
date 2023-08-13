@@ -124,6 +124,8 @@ hr{
 
 .card-footer{
     background-color: #000;
+    position: sticky;
+    bottom: 0;
 }
 
 textarea{
