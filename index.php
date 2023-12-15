@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gerador de Currículo</title>
+    <title>Gerador de Currículos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="img/icone-formacao-1.png" type="image/x-icon">
@@ -16,7 +16,7 @@
                 <a class="title"  href="index.php"> Gerador de Currículos</a>
             </div>            
         </nav>
-        <main class="container">
+        <main>
             <form action="gerarCurriculo.php" method="post" target="_blank" enctype="multipart/form-data">
                 <div class="card">
                     <div class="card-body col-sm-12">
