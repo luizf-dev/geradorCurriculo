@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gerador de Currículos</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="img/icone-formacao-1.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
     <body>    
         <nav class="navbar-light bg-dark">
             <div class="container">
-                <img src="img/icone-formacao-1.png" alt="">
+                <img src="assets/img/logo.png" alt="logo">
                 <a class="title"  href="index.php"> Gerador de Currículos</a>
             </div>            
         </nav>
@@ -35,7 +35,7 @@
                         <div class="row">
                             <div class="form-group col-md-6 col-sm-12">
                                 <label for="data-nascimento">Data Nascimento</label>
-                                <input type="text" class="form-control" name="data-nascimento" id="data-nascimento">
+                                <input type="text" class="form-control date" name="data-nascimento" id="data-nascimento">
                             </div>
 
                         
@@ -82,7 +82,7 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="form-group">
                                     <label for="telefone">Telefone</label>
-                                    <input type="number" class="form-control" name="telefone" id="telefone">
+                                    <input type="text" class="form-control phone" name="telefone" id="telefone">
                                 </div>
                             </div>                                                                                                                                      
                         </div>
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="card-body" id="div-habilidades">
-                        <h4 class="card-title">Minhas habilidades <small>(Aqui você pode descrever suas melhores habilidades, melhores competências etc...)</small></h4>
+                        <h4 class="card-title">Minhas habilidades <small>(Aqui você pode descrever suas melhores habilidades, melhores competências, etc...)</small></h4>
                         <button class="btn btn-success btn-add btn-sm right" id="btn-adicionar-habilidades" title="Adicionar habilidades">Adicionar habilidades</button>
                     </div>
 
@@ -124,10 +124,11 @@
                     </div>
                 </div>
             </form>
-        </main>
-        
+        </main>       
         
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="js/index.js"></script>
+        <script src="assets/js/index.js"></script> 
+        <!-- Biblioteca Jquery Mask Plugin--> 
+        <script src="assets/Mask-Plugin/dist/jquery.mask.min.js"></script>              
     </body>
 </html>

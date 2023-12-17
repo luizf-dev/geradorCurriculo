@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Currículo - Imprimir Modelo</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/icone-formacao-1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <main class="print">
         <section class="topo">
             <img src="img/icone-formacao-1.png" alt="">
-            <h1 class="nome"><?= $dados['nome']; ?></h1>
-            <p><span>Data Nascimento: </span><?= $dados['data_nascimento'] ?> <span> | Estado Civil: </span> <?= $dados['estado_civil'] ?></p>
+            <h1 class="nome"><?= $dados['nome']; ?></h1><br><br>
+            <p><span>Data Nascimento: </span><?= $dados['data_nascimento'] ?> <span></p>
+            <p><span>Estado Civil: </span> <?= $dados['estado_civil'] ?></span></p>
             <p><span>Rua: </span><?= $dados['rua']; ?><span> | N°: </span><?= $dados['numero']; ?><span> | Bairro: </span>  <?= $dados['bairro']; ?></p>
             <p><span>Cidade: </span><?= $dados['cidade']; ?></p> 
             <p><span>Estado: </span><?= $dados['estado']; ?></p> 
@@ -75,7 +77,7 @@
                                     <h4><?= $dados['cursos']['cursosAperfeicoamentos'][$i] ?></h4>
                                     <p><?= $dados['cursos']['instituicoes'][$i] ?></p>
                                     <p><?= $dados['cursos']['inicios'][$i] ?> - <?= $dados['cursos']['conclusoes'][$i] ?></p>
-                                    <p><?= $dados['cursos']['cargasHorarias'][$i] ?></p>
+                                    <p><?= $dados['cursos']['cargasHorarias'][$i] ?> Horas</p>
                                 </div>
                             </li>
                         <?php } ?>
@@ -113,7 +115,7 @@
                 <?php } ?>
             </div>
         </section>
-        <button class="no-print button-print" onclick="window.print();"> Imprimir</button>  
+        <button  class="no-print button-print" onclick="window.print();"> Imprimir</button>  
     </main>
 </body>
 </html>
