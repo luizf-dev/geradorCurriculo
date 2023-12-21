@@ -100,7 +100,7 @@ $(document).ready(function(){
                     '                <input type="text" class="form-control date" placeholder="DD/MM/AAAA" name="formacao-inicio[]">'+
                     '            </div>'+
                     '            <div class="col-12 col-md-2 div-links">'+
-                    '            <label for="conclusao">Data de Conclusão</label>'+
+                    '            <label for="conclusao">Data Conclusão</label>'+
                     '                <input type="text" class="form-control date" placeholder="DD/MM/AAAA" name="formacao-conclusao[]">'+
                     '            </div>'+
                     '            <div class="col-12 col-md-1">'+

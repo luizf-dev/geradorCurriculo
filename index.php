@@ -94,7 +94,7 @@
                     </div><br>               
 
                     <div class="card-body" id="div-experiencias">
-                        <h4 class="card-title">Minhas Experiências</h4>
+                        <h4 class="card-title">Minhas Experiências <small>(Se não hover data de saída, o campo será gerado como 'Atualmente'!)</small></h4>
                         <button class="btn btn-success btn-add btn-sm right" id="btn-adicionar-experiencia" title="Adicionar experiência">Adicionar experiência</button>
                     </div>
 
@@ -109,7 +109,7 @@
                     </div>
 
                     <div class="card-body" id="div-habilidades">
-                        <h4 class="card-title">Minhas habilidades <small>(Aqui você pode descrever suas melhores habilidades, melhores competências, etc...)</small></h4>
+                        <h4 class="card-title">Minhas habilidades <small>(Aqui você pode descrever suas melhores habilidades, melhores competências, etc... Preencha uma competência por campo!)</small></h4>
                         <button class="btn btn-success btn-add btn-sm right" id="btn-adicionar-habilidades" title="Adicionar habilidades">Adicionar habilidades</button>
                     </div>
 

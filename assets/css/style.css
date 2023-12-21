@@ -185,6 +185,10 @@ textarea{
     .no-print{
         display: none;
     }
+
+    .print{
+        border: none;
+    }
 }
 
 /*!Media queries ------------------------------------*/

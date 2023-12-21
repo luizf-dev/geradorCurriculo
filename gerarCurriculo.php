@@ -28,8 +28,8 @@ $dados = array(
             'cargos' => $_POST['experiencia-cargo'],
             'empresas' => $_POST['experiencia-empresa'],
             'inicios' =>  $_POST['experiencia-inicio'],
-            'fins' =>  $_POST['experiencia-fim'],
-          ) : null, // * Se o usuário não adicionou nenhuma experiência, esse elemento ficará nulo
+            'fins' => $_POST['experiencia-fim'],
+          ) :null,// * Se o usuário não adicionou nenhuma experiência, esse elemento ficará nulo
 
 
     'formacoes' => isset($_POST['formacao-curso']) ?
